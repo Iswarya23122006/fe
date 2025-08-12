@@ -1,0 +1,180 @@
+1.HTML
+  Introduction
+------------------------------------------------------------------------------
+Full stack=Frontend+ backend+Database
+
+
+ What is Frontend?
+ Frontend is what we see on a website.
+
+EX: When you open a website like Instagram — the buttons, colors, text, and layout — all that is frontend.
+
+
+ What is Backend?
+Backend is the part of a website that works in the background and manages data.”
+
+EX: When you log in to Instagram:”
+
+You enter your username and password (Frontend)
+
+That info is sent to the backend, which checks if it’s correct or not
+
+
+Database: A database is a place where data is stored and managed.
+🔗 Connection Between Frontend, Backend, and Database
+📱 Frontend
+The part you see and use — like Instagram’s login page, feed, like button, etc.
+🗣 “When you type your username and password and click login.”
+
+⚙️ Backend
+The part that receives your request, checks if your info is correct, and decides what to do.
+🗣 “It checks your login details.”
+
+🗃 Database
+The place where all your data is stored — like usernames, passwords, posts, followers.
+🗣 “It finds your details in the database and sends them back to the backend.”'
+Ht means-->hyper text/ hyper link-->It refers to the way webpages are linked to each other.
+ml-->markup language-->It refers to the document which tells to the browser how to structure a display
+Versions of HTML
+1.HTML 1.O
+2.HTML 2.O
+3.HTML 3.2
+4.HTML 4.O
+5.HTML 5(latest version)
+Advantages of HTML
+1.Easy to understand
+2.User friendly
+3.Open source
+4.Flexibility
+5.Trouble shoot is easy(Identifying errors is easy)
+------------------------------------------------------
+NOTE: HTML tag and HTML element
+1.HTML Tag: Any word encloses within a angular brackets(<head>)
+2.Element: Complete foundation of html tags
+           open tag, content, closed tag
+ Eg: <title>
+      Hello World!!
+     </title>
+HTML Example (web programing)
+file name c1.html
+comment line--> <!1st Web program>
+   <html>
+<head>
+<title>Web program</title>
+</head>
+<body>
+Welcome to html
+</body>
+   </html>
+------------------------------------------------------------------
+  Html tags
+Text formatting tags-->
+a. Heading tag
+purpose--> denoted--><h1>.......<h6>
+Eg. c2.html-->
+<html>
+<h1>This  is content</h1>
+</html>
+
+Note: Future of html file
+No need to follow the entire html
+b. Paragraph tag
+purpose-->Paragraph--><p></p>
+example-->c3.html-->
+<html>
+<p> Ram is Good Boy 
+    Sita is Good Girl.
+    We are in FSD Class. </p>
+</html>
+
+c. Pre formatted tag
+purpose--> pre formated--><pre></pre>
+
+
+d. break tag
+purpose-->break--><br>
+NOTE: break tag is a self closing tag.
+
+ex-->c5.html-->
+<html>
+   <h1>Ram is Good Boy 
+   <br>Sita is Good Girl.
+   </h1>
+   </html>
+e. bold tag
+purpose-->bold-->
+
+ex-->c6.html-->
+<html>
+<p>Hi this is <b> iswarya</b></p>
+</html>
+
+f. Italic tag
+purpose-->Italic letter-->
+
+ex-->c7.html-->
+<html>
+<p>hi<i> Welcome</i></p>
+</html>
+
+e. underline tag
+purpose-->underline for the text--><u></u>
+
+ex-->c8.html-->
+<html>
+<u>hello</u>
+</html>
+
+Enter tag
+Image tag
+Audio tag
+video tag
+List tag
+Table tag
+Form tag
+--------------------------------------------------------------------
+  Link files to html
+2.CSS
+  Introduction
+  Types of css
+  Box object model
+3. Java script
+  Introduction
+  Variables
+  Data types
+  Operators
+  Control structures
+  Functions
+  JS objects
+  Browser object
+  document obj mode
+  form validations
+  JS ES6
+4.Boot stapp
+  Introduction
+  How to use boot stapp
+5.React
+Introduction
+JSX(java script excel method)
+Working with ai/react environment setup
+react work flow
+Components
+   1. Class component
+   2.Functional component
+   3.Component life cycle
+   4.Props
+   5.State management
+   6.Promises
+   7.Fetch
+   8.Axios
+   9.Use context
+  10. Hooks
+  11. Styling components
+React router(page navigation)
+Handling forms and user input
+  1.Event handling functions
+Storage services
+  1. Double storage
+  2.Cookies
+Redux
+ 
