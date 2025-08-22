@@ -137,7 +137,84 @@ Form tag
 2.CSS
   Introduction
   Types of css
+
+CSS:
+Introduction: css stands for Cascading style sheets(.css)
+Which is used to describe the presentation of the html document
+CSS is used to make webpages more stylish and attractive
+
+Types of CSS:
+1.Css can be added into html to make webpages attractive in 3 ways
+a. Inline css
+b. Internal css
+c. External css
+
+Inline css: Inline css can be implemented using style attributes to a tag
+syntax-->  <tagname style="property:value">
+          
+              </tagname>
+
+Internal css: 
+1. Internal css can be implemented using style tag
+2. Style tag must be written only in head section
+Syntax:
+           <head>
+           <style>
+               tagname{property:value}
+           </style>
+           </head>
+
+External css:
+1. This is implemented using external css file (link tag within a head section))
+
+<html>
+     <head>
+          <style>
+              h1{color:red}
+              body{background:yellow}
+          </style>
+     </head>
+     <body>
+           <h1> HII THIS IS DP </h1>
+    </body>
+   </html>
+
+CSS sectors:
+1.Css selectors are used to find(or select) the html elements u want to study
+a. Element selector
+b. class selector
+c. id selector
+
+a. element selector: 
+b. class selector: 
+if ex:
+<h2>red</h2>
+<h2>green </h2>
+
+-if we apply the style then it changes to that particular color
+
+h2{
+color:red
+}
+c. id selector:
+1. It is similar to class selector but ids are unique
+
+
+
+Box object model:
+purpose: The box obj model in css defines the structure of the element on a web browser
+ box obj model consists of core main components
+  1. content
+  2.padding
+  3.border
+  4.margin
+content: It refers to the actual content of an element
+padding: The space between content and border 
+border: A border is the one that surrounds padding and content
+margin: The outer most space around the element separating other elements
   Box object model
+
+
 3. Java script
   Introduction
   Variables
@@ -150,20 +227,6 @@ Form tag
   document obj mode
   form validations
   JS ES6
-
-Java script:
-Topics:
-1.Introduction
-2.Variables
-3.Data types
-4.Operators
-5.control structures
-6.functions
-7.Js objects
-8.Browser object model
-9.Document object model
-10.Form validations
-11.Java script es6
 
 1.Java script is used to create dynamic web application
 2.Java script is a object oriented scripting language
